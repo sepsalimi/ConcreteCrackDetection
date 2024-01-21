@@ -4,6 +4,12 @@ For my Capstone for BrainStation's Data Science bootcamp, I trained a model on 3
 
 ![image](https://github.com/sepsalimi/ConcreteCrackDetection/assets/75538784/b3e228cb-2e50-4ee5-b27a-892cce204b6f)
 
+These paramters led to a 90% F1 Score model.
+
+The following image are
+
+![image](https://github.com/sepsalimi/ConcreteCrackDetection/assets/75538784/0327ffc1-8621-4763-8bdc-0f2326183a3d)
+
 More information can be read through the PDF report.
 
 ------------------------
