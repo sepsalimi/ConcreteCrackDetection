@@ -4,8 +4,15 @@ For my BrainStation's Data Science bootcamp capstone, I trained a model on 33,00
 
 ![output-2](https://github.com/sepsalimi/ConcreteCrackDetection/assets/75538784/9d1524cf-d291-4ad4-b2d9-ea2bf3d21081)
 
+And these were the final results:
 
-These paramters led to a 90% F1 Score model and the image below shows the tuning run losses, F1 score, and IoU coefficient score for the train and validation dataset.
+![image](https://github.com/sepsalimi/ConcreteCrackDetection/assets/75538784/b0e47d4e-dfc3-4af1-8510-7ea8e91c84ad)
+
+![image](https://github.com/sepsalimi/ConcreteCrackDetection/assets/75538784/3d9e1b64-c813-4422-b439-740bfbd639a5)
+
+![image](https://github.com/sepsalimi/ConcreteCrackDetection/assets/75538784/8b53aaa5-63a3-4b77-baeb-dcfb6746349c)
+
+These paramters led to a 87% F1 Score model and the image below shows the tuning run losses, F1 score, and IoU coefficient score for the train and validation dataset.
 
 
 ![image](https://github.com/sepsalimi/ConcreteCrackDetection/assets/75538784/0327ffc1-8621-4763-8bdc-0f2326183a3d)
