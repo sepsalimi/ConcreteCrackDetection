@@ -1,9 +1,18 @@
 # ConcreteCrackDetection
 
-'''''''''''''''''''''''''''''''''''''''''''''''
+For my Capstone for BrainStation's Data Science bootcamp, I trained a model on 33,000 images of 256x256 cracks in concrete. The following parameters were fine tuned and these were the optimal results:
+
+![image](https://github.com/sepsalimi/ConcreteCrackDetection/assets/75538784/b3e228cb-2e50-4ee5-b27a-892cce204b6f)
+
+More information can be read through the PDF report.
+
+------------------------
+
+To Run:
+
 The majority of the files in segment_anything are from META's package. 
 
-Unfortunately, the notebooks that I've created have to be in this folder to work properly.
+The notebooks that I've created have to be in this folder to work properly.
 
 The notebooks that are relevant are listed below.
 
