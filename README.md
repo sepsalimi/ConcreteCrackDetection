@@ -1,12 +1,12 @@
 # ConcreteCrackDetection
 
-For my Capstone for BrainStation's Data Science bootcamp, I trained a model on 33,000 images of 256x256 cracks in concrete. The following parameters were fine tuned and these were the optimal results:
+For my BrainStation's Data Science bootcamp capstone, I trained a model on 33,000 images of 256x256 cracks in concrete. 
 
-![image](https://github.com/sepsalimi/ConcreteCrackDetection/assets/75538784/b3e228cb-2e50-4ee5-b27a-892cce204b6f)
+![output-2](https://github.com/sepsalimi/ConcreteCrackDetection/assets/75538784/9d1524cf-d291-4ad4-b2d9-ea2bf3d21081)
 
-These paramters led to a 90% F1 Score model.
 
-The following image are
+These paramters led to a 90% F1 Score model and the image below shows the tuning run losses, F1 score, and IoU coefficient score for the train and validation dataset.
+
 
 ![image](https://github.com/sepsalimi/ConcreteCrackDetection/assets/75538784/0327ffc1-8621-4763-8bdc-0f2326183a3d)
 
