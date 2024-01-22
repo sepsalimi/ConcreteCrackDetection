@@ -16,7 +16,65 @@ The optimum paramters led to a 87% F1 Score model and the final results are show
 
 ![image](https://github.com/sepsalimi/ConcreteCrackDetection/assets/75538784/8b53aaa5-63a3-4b77-baeb-dcfb6746349c)
 
-More information can be read through the PDF report.
+More information can be read through the PDF report and fine-tuning notes below:
+
+** Fine Tuning Notes **:
+
+**Layers:**
+
+- Switching from 7 layers to 6 layers loss improved. (Run 1 to 2)
+- Switching from 6 layers to 5 increased loss.  (Run 2 to 3)
+
+Conclusion: 6 layers is optimal
+
+**Kernels:**
+
+- Switching from 5,5 to 3,3 improved loss. (Run 4 to 5)
+
+Conclusion: 3,3 kernels are optimal
+
+**Kernel Initializer**
+
+- Switching to he_uniform increased loss. (Run 5 to 6)
+
+Conclusion: he_normal > he_uniform
+
+**Activation Function**
+
+- Switching from ReLu to Leaky ReLu (0.01) improved loss. (Run 6 to 7)
+- Leaky ReLu (0.1) improved loss (Run 7 to 8)
+- Leaky ReLu (0.5) increased loss. (Run 8 to 9)
+- Switching to 0.25 increased loss (Run 9 to 10)
+- Switching to 0.375 improves loss. Best so far. (Run 10 to 11)
+- Leaky ReLu switch Run 7 to 8 also included hu_normal switch. Therefore switched to regular ReLu and saw (Run 13 to 16 back and forth. Leaky Relu 0.375 is still optimal)
+
+Conclusion: Leaky ReLu with coefficient 0.375 is optimal
+
+**Optimizer:**
+
+- Switched to RMSprop and loss increased (Run 11 to 12)
+- Switched to SGD with momentum 0.9 and loss increased even more. Least effective. (Run 12 to 13)
+
+Conclusion: Adam is optimal
+
+
+**Loss Function Weights:**
+
+- Increased weight of positive from 1 to 1.1. Improved loss (Run 17 to 18)
+- Increased weight of positive to 1.5. (Run 18 to 19). Overfitting problem.
+- Reverted positive weight to 1.1, decreased negative weight to 0.9. Seems like beginning to overfit. Wiil not explore anymore (Run 19 to 20)
+
+Conclusion: negative weight = 0.9, postive weight = 1.1 is optimal
+
+**The final training model is:** 
+- Sample: 0.1, 
+- Batch: 20, 
+- bin_crossentropy(0.9,1.1), 
+- Leaky Relu (0.375), 
+- he_normal, 
+- adam=0.0001, 
+- 6 layers, 
+- kernel(3,3)
 
 ------------------------
 
