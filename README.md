@@ -8,9 +8,6 @@ The following is the fine-tuning process of the crack detection model:
 
 ![image](https://github.com/sepsalimi/ConcreteCrackDetection/assets/75538784/f2e97b9b-9eee-4720-8fa0-d5c3d900d621)
 
-
-![output-2](https://github.com/sepsalimi/ConcreteCrackDetection/assets/75538784/9d1524cf-d291-4ad4-b2d9-ea2bf3d21081)
-
 The optimum paramters led to a 87% F1 Score model and the final results are shown below.
 
 ![image](https://github.com/sepsalimi/ConcreteCrackDetection/assets/75538784/b0e47d4e-dfc3-4af1-8510-7ea8e91c84ad)
