@@ -18,6 +18,8 @@ The optimum paramters led to a 87% F1 Score model and the final results are show
 
 More information can be read through the PDF report and fine-tuning notes below:
 
+---------------------------------------------
+
 **Fine Tuning Notes**:
 
 **Layers:**
