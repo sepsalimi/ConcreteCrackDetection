@@ -1,6 +1,8 @@
 # ConcreteCrackDetection
 
-For my BrainStation's Data Science bootcamp capstone, I trained and fine-tuned a model on 33,000 images of 256x256 cracks in concrete. 
+For my BrainStation's Data Science bootcamp capstone, I trained and fine-tuned a model on 33,000 images of 256x256 cracks in concrete. This model was combined with Meta's Segment Anything Model to isolate the foreground of inspection images of concrete infastructure. 
+
+The following is the fine-tuning process of the crack detection model:
 
 ![output-2](https://github.com/sepsalimi/ConcreteCrackDetection/assets/75538784/9d1524cf-d291-4ad4-b2d9-ea2bf3d21081)
 
