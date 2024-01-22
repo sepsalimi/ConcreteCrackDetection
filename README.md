@@ -101,4 +101,4 @@ The notebooks that are relevant are listed below.
 
 5) Open Image_Segmentation.ipynb for META's SAM object detection being utlized
 
-6) Open CrackDetection.py for utilizing both META's SAM, and the UNET model I saved. This is not done yet and work in progress.
+6) Open CrackDetection.py for utilizing both META's SAM, and the UNET model I trained. This model was adopted by my company and further progression cannot be shared.
